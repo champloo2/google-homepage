@@ -5,12 +5,28 @@ h1{color:red;}
 width: 200px;
 height: 60px;
 }
+.pagegrid{
+display: grid;
+justify-items: vertical;
+
+}
+.search{
+border-color: black;
+border-widtch:5px;
+border-radius:20px;
+width: 500px;
+height: 30;
+}
 </style>
   <title>whats up</title></head>
   
 <body>
-  <img class="google-image" alt="Google" id="hplogo" src="https://res.cloudinary.com/demo/image/fetch/f_auto/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-  <input type="text">
+<div class = "pagegrid">
+ <div > <img class="google-image" alt="Google" id="hplogo" src="https://res.cloudinary.com/demo/image/fetch/f_auto/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></div>
+ <div > <input type="text" class="search"></div>
+<div>
 	<button type="submit">Google Search</button>
 	<button type="submit">I'm feeling lucky</button>
+</div>
+</div>
 </body></html>
